@@ -45,4 +45,12 @@ public class ServiciosHotel {
         this.nombre = nombre;
     }
 
+    public Hotel getHotel() {
+        return hotel;
+    }
+
+    public void setHotel(Hotel hotel) {
+        this.hotel = hotel;
+    }
+
 }
