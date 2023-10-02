@@ -64,4 +64,12 @@ public class Habitacion {
         this.costoPorNoche = costoPorNoche;
     }
 
+    public Hotel getHotel() {
+        return hotel;
+    }
+
+    public void setHotel(Hotel hotel) {
+        this.hotel = hotel;
+    }
+
 }
